@@ -178,3 +178,9 @@ Here we successfully performed Parts of Speech tagging on the given dataset.
 ![deep](https://user-images.githubusercontent.com/12748752/181097747-f97a41d2-ebab-4295-8dae-fac47563a251.png)
 
 More data or better larger dataset can be used to build a better model. We can also try out better pre trained model with fine tuning to increase the performance.
+
+## Download Link & Reference
+![deep](https://user-images.githubusercontent.com/12748752/181097747-f97a41d2-ebab-4295-8dae-fac47563a251.png)
+* [Drive](https://drive.google.com/drive/folders/17_zAhdF4aCPlpL0xa6nX8JbaOIsC0LdU?usp=sharing)
+* **Time**- _12-March-22,59:38_
+
