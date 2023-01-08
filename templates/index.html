@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>iNeuron</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon"
+        href="data:image/png;base64,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" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<style>
+		body{background-color:#efefef;}
+		textarea,
+		select,
+		.form-control,
+		.custom-select,
+		button.btn,
+		.btn-primary,
+		input[type="text"],
+		input[type="url"],
+		.uneditable-input{
+			border: 1px solid #dadeda;
+			outline: 0 !important;
+			border-radius:0px;
+			box-shadow: none;
+		   -webkit-box-shadow: none;
+		   -moz-box-shadow: none;
+		   -moz-transition: none;
+		   -webkit-transition: none;
+		}
+		textarea:focus,
+		select:focus,
+		.form-control:focus,
+		.btn:focus,
+		.btn-primary:focus,
+		.custom-select:focus,
+		input[type="text"]:focus,
+		.uneditable-input:focus{
+			border: 1px solid #007bff;
+			outline: 0 !important;
+			border-radius:0px;
+			box-shadow: none;
+		   -webkit-box-shadow: none;
+		   -moz-box-shadow: none;
+		   -moz-transition: none;
+		   -webkit-transition: none;
+		}
+		#loading {
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: 9999999999;
+			overflow: hidden;
+			background: rgba(255, 255, 255, 0.7);
+		}
+		.loader {
+			border: 8px solid #f3f3f3;
+			border-top: 8px solid #363e75;
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			left: 50%;
+			margin-left: -4em;
+			display: block;
+			animation: spin 2s linear infinite;
+		}
+		.loader,
+		.loader:after {display: block;position: absolute;top: 50%;margin-top: -4.05em;}
+		@keyframes spin {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+		.color-pellets{
+			min-height:435px;
+			background-color:transparent;
+			overflow:auto;
+			margin-right:10px;
+			margin-bottom:15px;
+		}
+		.color-pellets ul{padding:0px;margin-bottom:0px;}
+		.color-pellets ul li{
+			list-style-type:none;
+			text-align:center;
+			margin-bottom: 3px;
+			padding: 1px 7px 1px 7px;
+			border-radius: 3px;
+			color:#fff;
+		}
+	   .results{
+			background-color:#fff;
+			width:100%;
+			height:252px;
+			padding:15px;
+			line-height: 35px;
+		}
+		.right-logo{width:100%;}
+		.right-logo img{position:absolute;right:0px;margin-right:5px;margin-bottom:10px;}
+		.ADJ{background-color:#3498DB;padding:1px 3px;}
+		.ADP{background-color:#8E44AD;padding:1px 3px;}
+		.ADV{background-color:#6495ED;padding:1px 3px;}
+		.AUX{background-color:#9B59B6;padding:1px 3px;}
+		.CCONJ{background-color:#FFC0CB;padding:1px 3px;}
+		.DET{background-color:#A93226;padding:1px 3px;}
+		.INTJ{background-color:#17A589;padding:1px 3px;}
+		.NOUN{background-color:#D4AC0D;padding:1px 3px;}
+		.NUM{background-color:#D68910;padding:1px 3px;}
+		.PART{background-color:#E67E22;padding:1px 3px;}
+		.PRON{background-color:#A35400;padding:1px 3px;}
+		.PROPN{background-color:#DA70D6;padding:1px 3px;}
+		.PUNCT{background-color:#808000;padding:1px 3px;}
+		.SCONJ{background-color:#D2B4DE;padding:1px 3px;}
+		.SYM{background-color:#48D1CC;padding:1px 3px;}
+		.VERB{background-color:#a8D12C;padding:1px 3px;}
+		.-PAD-{background-color:#ff8D1CC;padding:1px 3px;}
+		.results span{color:#fff;}
+		
+	</style>
+</head>
+<body>
+
+<div class="text-center">
+  <h3 class="py-5">Parts Of Speech Tagging</h3>
+</div>
+  
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-9">
+			<form class="">
+				<div class="form">
+					<div class="form-group"><textarea class="form-control" rows="2" id="comment"></textarea></div>
+					<div class="form-group"><button type="submit" id="submit-btn" class="btn btn-primary">Predict</button></div>
+					<br/><br/>
+					<div class="results">
+						<!--<canvas id="result-canvas" width="823" height="250" style="border:1px solid #d3d3d3;">Your browser does not support the canvas element.</canvas>-->
+						
+					</div>
+				</div>
+			</form>
+		</div>
+	
+		<div class="col-xs-12 col-sm-3">
+			<div class="px-3">
+				<div class="color-pellets">
+					<ul>
+						<li class="ADJ">ADJ</li>
+						<li class="ADP">ADP</li>
+						<li class="ADV">ADV</li>
+						<li class="AUX">AUX</li>
+						<li class="CCONJ">CCONJ</li>
+						<li class="DET">DET</li>
+						<li class="INTJ">INTJ</li>
+						<li class="NOUN">NOUN</li>
+						<li class="NUM">NUM</li>
+						<li class="PART">PART</li>
+						<li class="PRON">PRON</li>
+						<li class="PROPN">PROPN</li>
+						<li class="PUNCT">PUNCT</li>
+						<li class="SCONJ">SCONJ</li>
+						<li class="SYM">SYM</li>
+						<li class="VERB">VERB</li>
+						<li class="-PAD-">-PAD-</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="right-logo">
+	<img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAAlCAMAAABBJDpuAAAAVFBMVEX/fgD/iQA7NzIyMjMnNYInNYEnNYInNYEzMzInNYQnNYETJzsnNYIwN1wxMjNoTis4O1YrNm0xOF47PE9DP0dEQEVpTVkAJJ4nNYEOLJHJbiAzMzOmmmHRAAAAFnRSTlOh/vu+986oen9fP2UqEzQkFAIDAAEEILVBJQAAA3FJREFUWMPNmO2WoyAMQG0VBARtdVRs3/89NwkgaF1rd2aOm18tIrnkgwSz7n+R7LcV1ELkeS7E7VySRlyfQXJhTiO55c+liP4cEuH1X8E7gaV+S3Jv2zYZ/Vr+/Sdx2vP6doc/fSPcf/GOpLSFVXFUW8t+giRP47TOd60yk1hbxIhSP0ACKPWrvw7YBIT/lcQY84G3Wk17ugWQfg5UsQJpjflKSLQi7xTWyk0SXTJ4VnB5D1yccxmp4Z+mX5KGNS+SPXVNll0ulyxL0wYmloBB6zL/MpCoAgjAJiUM6w0SboMwPUdRogvNKcNM3smFdRvEcJJkKcflQa+X0pNIfBGW0zKqjyQtw4VLKQlI7ZLgdrRNSZDjMQx2GB4pCkxkCrfGWUTJ0Egan6muCHgJCUwtnCk0mrJ9Q8K5LUqtdSfynkAedhynaRqngVDaXLiJEAzkFkM71IuIlWRYtSQpbXSZDvQ7JPCei9brs+oaABkn74LRIkpFaVxGnzjvIxTYREOoEwn5r01JTDRTcO87Eu3zNUeTPKZpjrIRrNIDCjzALbPk7LJMIokOEQu2K7yKQAKvFDF9pVe0R+LGb7h1MMkw2ijjA/1zhSfSphvEAChXJEhAqwYStIJWXnTpvbdH4hTUwSQ2JRmQpILDLYbB7J41SYiLcNozu5Z3JMo7RxBJahI7WSRByCMkqJt9hySESbVJcvmARJGFExJmdBSl2oM2+T4JLWfgaGFptizlPUm1FydHSdyZ7UnS4ySph2kS0kJrkvr5NJg7dnrJnfxgxPozRPGtkyPNOxtaiDvbIAF9L+5B5zTI2BwlwXmM+U3zReav3o0F8oUEFFZ42McDZYomOUziFmezgWyo251Uc1nyKJol7URCEvIYUEbHYaEGQi9C9egwCdVfHwiaajfjKMUcHcRacCylhWJbJDfq47EEDhYqoIWjHnwDXZPpPiChPQelLU+Cbm4w50FmYgkvFwpiWwCC/Um/SLcNElOC9RVj6qWpCiEMvRUK4zLpdKmPw8rVldy/qxjn60wLrVLWJIPLiZJRr3fsvnOHPvare+lB93tb37T20D82jqOt+zNuXhuNvNhp7X+PpHb3rvV9R5xjE2SpyCN9ffQO+GtWIZr5Xnytz4gTMIRYfys47/uJEXny/aQ/95tSUwmU+uRvSp/IHzQqZYpYrQmxAAAAAElFTkSuQmCC" />
+</div>
+	
+<div id="loading"><div class="loader"></div></div>
+<script>
+	$(document).ready(function(){
+		$("#loading").hide();
+		
+		
+		$('#submit-btn').click(function(e){
+			e.preventDefault();
+			var input = $("#comment").val();
+			var words = input.split(" ");
+			
+			$(".results").html("");
+			$("#loading").show();		
+			$.ajax({
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				url: "../predict",  //change this url
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				type: "post",
+				mode: 'no-cors',
+				crossdomain: true,
+				withCredentials: false,
+				credentials: 'same-origin',
+				headers: {
+						'Content-Type': 'application/json;charset=UTF-8',
+						"Access-Control-Allow-Origin": "*"
+					},
+				data:JSON.stringify({data:input}),
+				success: function(data){
+					data.forEach(function(item){
+						$(".results").append("<span class='"+item[1]+"'>"+item[0]+"</span> ");
+					});
+					$("#loading").hide();
+				}
+			});
+		});
+	});
+</script>
+</body>
+</html>
