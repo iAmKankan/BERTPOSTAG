@@ -1,6 +1,5 @@
 ## Parts of Speech Tagging using BERT
 ![deep](https://user-images.githubusercontent.com/12748752/181097747-f97a41d2-ebab-4295-8dae-fac47563a251.png)
-![light](https://user-images.githubusercontent.com/12748752/181097751-9be22081-c630-4756-9ea8-2c27fdce6984.png)
 
 ## PROBLEM STAEMENT
 ![deep](https://user-images.githubusercontent.com/12748752/181097747-f97a41d2-ebab-4295-8dae-fac47563a251.png)
@@ -91,6 +90,7 @@ _`pip install -r requirements.txt`_
 
 
 ### 1. Project Directory
+![light](https://user-images.githubusercontent.com/12748752/181097751-9be22081-c630-4756-9ea8-2c27fdce6984.png)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/12748752/211187233-91c36ab0-ccd3-4afb-b98c-d0b4007488cb.png" width=60%/>
@@ -100,6 +100,7 @@ _`pip install -r requirements.txt`_
 This above picture shows the folder structure of the project. Here project folder consists of data and BERT models. 
 
 ### 2. bertlayr.py
+![light](https://user-images.githubusercontent.com/12748752/181097751-9be22081-c630-4756-9ea8-2c27fdce6984.png)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/12748752/211187314-8efb957f-5f69-40b3-9a38-1e247ac1e967" width=60%/>
@@ -116,6 +117,7 @@ This file consists of the the bert model architecture which will be used to trai
 This file is used to train the model and to do the prediction.
 
 ### 4. trainCustomPostagger.py
+![light](https://user-images.githubusercontent.com/12748752/181097751-9be22081-c630-4756-9ea8-2c27fdce6984.png)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/12748752/211187366-05c9451b-d6c6-4422-bde7-c476a673c971.png" width=60%/>
@@ -125,6 +127,7 @@ This file is used to train the model and to do the prediction.
 This file is used to train a custom pos tagging model if the user wants to train.
 
 ### 5. downLoadlibs.py
+![light](https://user-images.githubusercontent.com/12748752/181097751-9be22081-c630-4756-9ea8-2c27fdce6984.png)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/12748752/211187387-fd0d4b6f-9e7c-4623-9da2-9027024d8960.png" width=60%/>
@@ -133,6 +136,7 @@ This file is used to train a custom pos tagging model if the user wants to train
 This file is used  to download dataset.
 
 ### 6. ClientApp.py
+![light](https://user-images.githubusercontent.com/12748752/181097751-9be22081-c630-4756-9ea8-2c27fdce6984.png)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/12748752/211187409-a56e9640-23df-42f4-8bbf-910e87e5d1e3.png" width=60%/>
