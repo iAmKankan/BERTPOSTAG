@@ -1,10 +1,6 @@
 ## Parts of Speech Tagging using BERT
 ![deep](https://user-images.githubusercontent.com/12748752/181097747-f97a41d2-ebab-4295-8dae-fac47563a251.png)
 
-## PROBLEM STAEMENT
-![deep](https://user-images.githubusercontent.com/12748752/181097747-f97a41d2-ebab-4295-8dae-fac47563a251.png)
-In this project we will be performing one of the most famous task in the field of nautal language processing i,e Parts of Speech Tagging using BERT.
-
 ## DESCRIPTION OVERVIEW
 ![deep](https://user-images.githubusercontent.com/12748752/181097747-f97a41d2-ebab-4295-8dae-fac47563a251.png)
 Part-Of-Speech tagging (POS tagging) is also called grammatical tagging or word-category disambiguation. It is the corpus linguistics of corpus Text data processing techniques for marking meaning and context.
